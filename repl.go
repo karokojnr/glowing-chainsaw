@@ -24,6 +24,12 @@ func startRepl() {
 		switch command {
 		case "exit":
 			os.Exit(0)
+		case "help":
+			fmt.Println("Welcome to Pokedex help menu!")
+			fmt.Println("Available commands:")
+			fmt.Println("exit - exit the program")
+			fmt.Println("help - show this help menu")
+			fmt.Println("")
 		default:
 			fmt.Println("Invalid command")
 		}
