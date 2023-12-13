@@ -28,4 +28,5 @@ REPL game in GO using the Pokemon API.
 <input type="checkbox" disabled checked /> Tests
 
 
+![Project Image](./project_img.png)
 
